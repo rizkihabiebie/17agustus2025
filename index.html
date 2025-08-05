@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17 Agustus 2025 - Dirgahayu Indonesia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8fafc;
+            overflow-x: hidden;
+        }
+        
+        .bendera {
+            animation: kibarkan 3s ease-in-out infinite alternate;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .merah {
+            background-color: #E30A17;
+            height: 50%;
+        }
+        
+        .putih {
+            background-color: white;
+            height: 50%;
+        }
+        
+        .kilau {
+            position: absolute;
+            width: 30%;
+            height: 100%;
+            background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,0.7), rgba(255,255,255,0));
+            animation: kilatan 5s infinite;
+        }
+        
+        @keyframes kibarkan {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(3deg); }
+        }
+        
+        @keyframes kilatan {
+            0% { left: -30%; }
+            20% { left: 130%; }
+            100% { left: 130%; }
+        }
+        
+        .teks-bergerak {
+            animation: geser 15s linear infinite;
+            white-space: nowrap;
+        }
+        
+        @keyframes geser {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center p-4 bg-gradient-to-b from-red-50 to-white">
+    <div class="max-w-4xl w-full bg-white rounded-2xl shadow-xl overflow-hidden transform transition-all duration-300 hover:shadow-2xl">
+        <!-- Bendera animasi -->
+        <div class="relative bendera h-64 w-full">
+            <div class="merah relative overflow-hidden">
+                <div class="kilau"></div>
+            </div>
+            <div class="putih relative overflow-hidden">
+                <div class="kilau"></div>
+            </div>
+            
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-red-600 rounded-full flex items-center justify-center shadow-md">
+                <div class="w-12 h-12 bg-white rounded-full"></div>
+            </div>
+        </div>
+        
+        <!-- Konten utama -->
+        <div class="p-8 text-center">
+            <h1 class="text-5xl font-bold text-red-600 mb-2">DIRGAHAYU</h1>
+            <h2 class="text-2xl font-semibold text-gray-800 mb-6">REPUBLIK INDONESIA</h2>
+            
+            <div class="flex items-center justify-center space-x-2 mb-8">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/3cdb9487-1a94-4276-910c-8ee4b8071c5f.png" alt="Ikon kalender merah dengan angka 17 berwarna putih" class="w-10 h-10" />
+                <span class="text-4xl font-bold text-gray-800">17</span>
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7d642e21-f211-487b-b628-d4c19b6e45b6.png" alt="Ikon kalender putih dengan teks AGUSTUS berwarna merah" class="w-10 h-10" />
+                <span class="text-4xl font-bold text-red-600">AGUSTUS</span>
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/101b2983-8a28-46a0-a3d5-f92069976627.png" alt="Ikon kalender merah dengan angka 2025 berwarna putih" class="w-10 h-10" />
+                <span class="text-4xl font-bold text-gray-800">2025</span>
+            </div>
+            
+            <p class="text-lg text-gray-600 mb-8">
+                "Bersatu Membangun Negeri, Maju Menuju Indonesia Emas 2045"
+            </p>
+            
+            <div class="relative overflow-hidden h-12 bg-yellow-50 rounded-full mb-8">
+                <div class="teks-bergerak absolute top-1/2 transform -translate-y-1/2 text-red-600 font-medium">
+                    MERDEKA! MERDEKA! MERDEKA! • 80 TAHUN INDONESIA MERDEKA • JAYA SELALU NEGERIKU • MERDEKA! MERDEKA! MERDEKA!
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                <div class="p-4 bg-red-50 rounded-lg group transform transition-all duration-300 hover:scale-105">
+                    <img src="d:\Rizki NfE2\assets\IDR.jfif" alt="Upacara bendera di lapangan dengan ribuan peserta mengenakan pakaian merah putih" class="w-full h-32 object-cover rounded mb-2" />
+                    <h3 class="font-semibold text-red-600">UPACARA BENDERA</h3>
+                </div>
+                <div class="p-4 bg-red-50 rounded-lg group transform transition-all duration-300 hover:scale-105">
+                    <img src="d:\Rizki NfE2\assets\cd3b2cd1-b2c5-4504-b17a-5352951abe37.jfif" alt="Lomba panjat pinang dengan peserta yang bersemangat mencoba mencapai hadiah di puncak" class="w-full h-32 object-cover rounded mb-2" />
+                    <h3 class="font-semibold text-red-600">LOMBA 17AN</h3>
+                </div>
+                <div class="p-4 bg-red-50 rounded-lg group transform transition-all duration-300 hover:scale-105">
+                    <img src="d:\Rizki NfE2\assets\SIDOARJO – Desa Kragan, sebuah permukiman di….jfif" alt="Pertunjukan budaya tari tradisional Indonesia di panggung dengan penari berbusana adat" class="w-full h-32 object-cover rounded mb-2" />
+                    <h3 class="font-semibold text-red-600">PERTUNJUKAN SETIAP RT</h3>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bagian footer -->
+        <div class="bg-red-600 text-white py-4 text-center">
+            <p>COOMING SOON 17 AGUSTUS 2025 DI DESA MANGKUBUMI KEC.SADANANYA </p>
+        </div>
+    </div>
+
+    <div class="mt-8 text-center text-gray-500 text-sm">
+        <p>Unduh poster ini di www.Rizki Nur Padilah.go.id/17agustus2025</p>
+    </div>
+
+    <script>
+        // Animasi tambahan untuk efek interaktif
+        document.addEventListener('DOMContentLoaded', () => {
+            const bendera = document.querySelector('.bendera');
+            
+            bendera.addEventListener('mouseenter', () => {
+                bendera.style.animationDuration = '1.5s';
+            });
+            
+            bendera.addEventListener('mouseleave', () => {
+                bendera.style.animationDuration = '3s';
+            });
+            
+            // Efek confetti saat diklik
+            document.body.addEventListener('click', (e) => {
+                const confetti = document.createElement('div');
+                confetti.className = 'fixed w-2 h-2 bg-red-600 rounded-full pointer-events-none';
+                confetti.style.left = `${e.clientX}px`;
+                confetti.style.top = `${e.clientY}px`;
+                confetti.style.transform = 'scale(1)';
+                document.body.appendChild(confetti);
+                
+                // Animasi jatuh dan fade out
+                let pos = e.clientY;
+                let opacity = 1;
+                const fall = setInterval(() => {
+                    pos += 5;
+                    opacity -= 0.02;
+                    confetti.style.top = `${pos}px`;
+                    confetti.style.opacity = opacity;
+                    
+                    if (opacity <= 0) {
+                        clearInterval(fall);
+                        confetti.remove();
+                    }
+                }, 30);
+            });
+        });
+    </script>
+</body>
+</html>
+
